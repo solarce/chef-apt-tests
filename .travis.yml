@@ -9,6 +9,12 @@ addons:
    - chef
    - chefdk
 
+matrix:
+  include:
+  - env: N=1
+  - env: N=2
+  - env: N=3
+
 install:
   - true
 
