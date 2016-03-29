@@ -1,0 +1,16 @@
+language: python
+sudo: false
+
+addons:
+ apt:
+   sources:
+   - chef-current-precise
+   packages:
+   - chef-server-core
+   - chefdk
+
+install:
+  - true
+
+script:
+  - true
