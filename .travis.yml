@@ -6,7 +6,7 @@ addons:
    sources:
    - chef-current-precise
    packages:
-   - chef-server-core
+   - chef
    - chefdk
 
 install:
